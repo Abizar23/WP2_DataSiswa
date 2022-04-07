@@ -1,24 +1,23 @@
 <html>
     <head>
         <title>Form Input Siswa</title>
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/form.css">
     </head>
 
     <body>
         <center>
+            <div id="get">
+            <header>
+                <h3>FORM SISWA</h3>
+                <hr>
+            </header>
+
+            <section>
             <?php echo validation_errors(); ?>
             <form action="<?= base_url('Lms/print'); ?>" method="post">
             <table>
                 <tr>
-                    <th colspan="3"> Form Siswa </th>
-                </tr>
-
-                <tr>
-                    <td colspan="3"></td>
-                    <hr>
-                </tr>
-
-                <tr>
-                    <th>NAMA SISWA</th>
+                    <th>NAMA <br> SISWA</th>
                     <th> : </th>
                     <td><input type="text" name="Nama" id="Nama"> </td>
                 </tr>
@@ -36,13 +35,13 @@
                 </tr>
 
                 <tr>
-                    <th>TANGGAL LAHIR</th>
+                    <th>TANGGAL <br> LAHIR</th>
                     <th> : </th>
                     <td><input type="date" name="Lahir" id="Lahir"> </td>
                 </tr>
 
                 <tr>
-                    <th>TEMPAT LAHIR</th>
+                    <th>TEMPAT <br> LAHIR</th>
                     <th> : </th>
                     <td><input type="text" name="Tempat" id="Tempat"> </td>
                 </tr>
@@ -54,10 +53,10 @@
                 </tr>
 
                 <tr>
-                    <th>JENIS KELAMIN</th>
+                    <th>JENIS <br> KELAMIN</th>
                     <th> : </th>
-                    <td><input type="radio" name="Jen_kel" value="Laki-laki">Laki-laki</td>
-                    <td><input type="radio" name="Jen_kel" value="Perempuan">Perempuan</td>
+                    <td><input type="radio" name="Jen_kel" value="Laki-laki">Laki-laki
+                    <input type="radio" name="Jen_kel" value="Perempuan">Perempuan</td>
                 </tr>
 
                 <tr>
@@ -73,15 +72,15 @@
                             <option value="HINDU"> HINDU </option>
                             <option value="KHONGHUCU"> KHONGHUCU </option>
                     </td>
-                </tr> 
-
-                <tr>
-                    <td colspan="3" align="center">
-                        <input type="submit" value="Submit">
-                    </td>
+                </tr>  
+                <tr> 
+                    <td colspan="3" align="center"> <input type="submit" value="Submit"> </td>         
                 </tr>
             </table>
+                    
             </form>
+            </section>
+            </div class="clear">
          </center>
     </body>
 </html>
