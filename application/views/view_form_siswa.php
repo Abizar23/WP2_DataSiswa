@@ -6,6 +6,9 @@
 
     <body>
         <center>
+            <marquee scrollamount="15"><h4>SELAMAT DATANG PADA HALAMAN PENDATAAN BIODATA SISWA ! 
+                SILAHKAN ISI FORM BIODATA !!! TERIMA KASIH :)
+            </h4></marquee>
             <div id="get">
             <header>
                 <h3>FORM SISWA</h3>

@@ -1,12 +1,12 @@
 <html>
     <head>
         <title>DATA SISWA</title>
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/data.css">
-
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/data_siswa.css">
     </head>
 
     <body>
         <center>
+        <marquee scrollamount="15"><h4>TERIMA KASIH !!! DATA ANDA AKAN KAMI PROSES :)</h4></marquee>
             <div id="data">
                 <header>
                 <h3>DATA SISWA</h3>
@@ -70,7 +70,6 @@
                 </tr>
             </table>
             </section>
-
             </div class="clear">
         </center>
     </body>
